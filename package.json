@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-gsalvador",
+  "version": "1.0.0",
+  "description": "profesional portfolio ",
+  "license": "ISC",
+  "author": "harmouryx",
+  "type": "commonjs",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "node ./build/server.js",
+    "start": "tsc && npm run dev"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
